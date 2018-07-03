@@ -24,5 +24,11 @@ public class Main {
 		//name.setName("Elsa Marie","Hagberg");
 
 		name.setName("HagBerg,Elsa Marie");
+		System.out.println();
+		//Test toString
+		Clock clock = new Clock();
+		clock.hour=8;
+		clock.minute=30;
+		System.out.println(clock.toString());
     }
 }
